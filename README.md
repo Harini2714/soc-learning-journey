@@ -101,7 +101,3 @@ The purpose of this repository is to document my practical cybersecurity learnin
 # Note
 
 All activities are performed in isolated virtual lab environments for educational and learning purposes only.
-
-
-
-All activities are performed in isolated virtual lab environments for educational and learning purposes only.
