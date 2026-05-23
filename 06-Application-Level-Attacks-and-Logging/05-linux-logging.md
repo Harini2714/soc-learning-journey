@@ -1,9 +1,4 @@
----
-
- ##`05-linux-logging.md`
-
-```md
-# Linux Logging
+# 05-Linux Logging.md
 
 ## Overview
 
