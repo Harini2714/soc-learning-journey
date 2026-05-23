@@ -38,7 +38,76 @@ When the victim clicks the link:
 
 In reflected XSS, the attacker must send the malicious link to the victim and trick the victim into clicking it.
 
-### Screenshot
+## Stored XSS
 
-![Reflected XSS](./Screenshots/reflected-xss.png)
+Stored XSS is a permanent attack because the malicious script is stored on the server or database.
 
+When users visit the affected page, the stored script runs automatically. This can affect every user who accesses that page until the administrator removes the malicious script.
+
+Reflected XSS vs Stored XSS
+Reflected XSS	Stored XSS
+Temporary attack	Permanent attack until removed
+Requires victim to click a malicious link	Script is stored on server or database
+Usually affects a targeted user	Can affect multiple users
+Depends on social engineering	Executes when users visit the affected page
+
+## Parameter Tampering
+
+Parameter tampering means changing values exchanged between the client and server.
+
+Example:
+
+Changing a product price value in a request is parameter tampering.
+
+In real-world websites, this is usually prevented using:
+
+Client-side validation
+Server-side validation
+Backend verification
+
+Burp Suite can be used to understand parameter tampering by capturing a request, modifying the parameter value, and forwarding the modified request to the server.
+
+## SQL Injection
+
+SQL Injection is an attack where malicious SQL statements are inserted into input fields or URLs.
+
+Attackers may use SQL Injection to:
+
+Bypass authentication
+Extract database information
+Modify data
+Access unauthorized information
+
+DVWA can be used as a practice environment to understand SQL Injection and other web application vulnerabilities.
+
+DVWA Practice Setup
+
+Basic practice steps:
+
+Open DVWA.
+Login using the lab credentials.
+Set DVWA security level to low.
+Practice SQL Injection and XSS only in a legal lab environment.
+
+## Burp Suite
+
+Burp Suite is a proxy tool used to capture, modify, drop, and forward HTTP requests.
+
+Burp Suite Workflow
+Browser Request → Burp Suite Proxy → Modify/Forward Request → Web Server
+Basic Steps
+Configure the browser proxy.
+Turn Intercept ON in Burp Suite.
+Send a request from the browser.
+Capture the request in Burp Suite.
+Modify the request if required.
+Forward the request to the server.
+
+When Intercept is ON, the browser request will wait until the request is forwarded from Burp Suite.
+
+Screenshot
+![Burp Suite Proxy Settings](screenshots/burp-suite-proxy-settings.png)
+
+## Important Note
+
+Do not test these attacks on real websites. Use only legal practice labs such as DVWA or other authorized environments.
