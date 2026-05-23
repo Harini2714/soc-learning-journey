@@ -44,12 +44,17 @@ Stored XSS is a permanent attack because the malicious script is stored on the s
 
 When users visit the affected page, the stored script runs automatically. This can affect every user who accesses that page until the administrator removes the malicious script.
 
-Reflected XSS vs Stored XSS
-Reflected XSS	Stored XSS
-Temporary attack	Permanent attack until removed
-Requires victim to click a malicious link	Script is stored on server or database
-Usually affects a targeted user	Can affect multiple users
-Depends on social engineering	Executes when users visit the affected page
+## Reflected XSS vs Stored XSS
+
+| Reflected XSS                   | Stored XSS                                          |
+| ------------------------------- | --------------------------------------------------- |
+| Temporary attack                | Permanent attack until removed                      |
+| Requires victim to click a      | Script is stored on server or database              |
+malicious link 
+| Usually affects a targeted use  | Can affect multiple users                           |
+| Depends on social engineering   | Executes when users visit the affected page         |
+| 05-linux-logging.md             | Linux log files, btmp, wtmp, dpkg.log               |
+| 06-centralized-logging.md       | Centralized logging concepts and benefits           |
 
 ## Parameter Tampering
 
