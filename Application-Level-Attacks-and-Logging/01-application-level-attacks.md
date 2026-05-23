@@ -40,5 +40,4 @@ In reflected XSS, the attacker must send the malicious link to the victim and tr
 
 ### Screenshot
 
-```md
 ![Reflected XSS](Screenshots/reflected-xss.png)
