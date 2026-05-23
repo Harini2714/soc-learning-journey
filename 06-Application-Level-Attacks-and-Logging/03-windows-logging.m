@@ -1,12 +1,8 @@
-# 03-windows-logging.md
-
 # Windows Logging
 
 ## Overview
 
 Windows logs help identify system activity, user activity, suspicious events, and security incidents.
-
----
 
 ## Logs, Events, and Incidents
 
