@@ -1,9 +1,5 @@
-
----
-
 ## `03-windows-logging.md`
 
-```md
 # Windows Logging
 
 ## Overview
