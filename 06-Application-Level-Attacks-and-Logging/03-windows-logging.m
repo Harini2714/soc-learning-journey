@@ -1,4 +1,4 @@
-## `03-windows-logging.md`
+# 03-windows-logging.md
 
 # Windows Logging
 
