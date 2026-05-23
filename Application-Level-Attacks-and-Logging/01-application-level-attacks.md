@@ -39,5 +39,4 @@ When the victim clicks the link:
 In reflected XSS, the attacker must send the malicious link to the victim and trick the victim into clicking it.
 
 ### Screenshot
-
-![Reflected XSS](Screenshots/reflected-xss.png)
+![Reflected XSS](./Screenshots/reflected-xss.png)
